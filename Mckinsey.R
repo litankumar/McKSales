@@ -17,6 +17,7 @@ summary(sales.data)
 sales.p<-data.frame(apply(sales.data[2:100000, 2:51], 2,sum) )
 
 sales.p<-sales.p/100000
+?ls
 
 colnames(sales.p)<- "prob"
 length (sales.data)
