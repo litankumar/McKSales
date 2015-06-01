@@ -8,6 +8,7 @@ get.sales.items <- function(sales) {
 
 sales.items <- grep('item', colnames(total.sales), value = TRUE) 
 ?nrow
+?ncolumn
 
 max(sales.data$id)
 
